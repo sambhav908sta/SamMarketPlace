@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="467b7cf9-1fb8-4593-9cd7-2763ddcb1ad6" name="Default Changelist" comment="" />
+    <list default="true" id="467b7cf9-1fb8-4593-9cd7-2763ddcb1ad6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1g7AAQPkhgeYWnVQbHwZnOM7Pbx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -57,12 +65,12 @@
     <state x="396" y="196" key="SettingsEditor/0.23.1792.1022@0.23.1792.1022" timestamp="1604115012777" />
     <state x="396" y="196" key="SettingsEditor/0.23.1792.1024@0.23.1792.1024" timestamp="1600926637068" />
     <state x="396" y="197" key="SettingsEditor/0.23.1792.1030@0.23.1792.1030" timestamp="1603771884936" />
-    <state x="656" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1604139662090">
+    <state x="656" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1604192949865">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="656" y="367" key="com.intellij.ide.util.TipDialog/0.23.1792.1020@0.23.1792.1020" timestamp="1598664451083" />
     <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.23.1792.1024@0.23.1792.1024" timestamp="1604097344701" />
-    <state x="656" y="365" key="com.intellij.ide.util.TipDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1604139662090" />
+    <state x="656" y="365" key="com.intellij.ide.util.TipDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1604192949865" />
     <state x="656" y="366" key="com.intellij.ide.util.TipDialog/0.23.1792.1030@0.23.1792.1030" timestamp="1603771755516" />
     <state x="656" y="367" key="com.intellij.ide.util.TipDialog/0.23.1792.1033@0.23.1792.1033" timestamp="1603776466981" />
     <state x="656" y="369" key="com.intellij.ide.util.TipDialog/0.23.1792.1034@0.23.1792.1034" timestamp="1601726559889" />
