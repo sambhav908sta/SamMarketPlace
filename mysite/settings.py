@@ -125,7 +125,15 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
-
+ 
+#STATIC_URL = 'https://github.com/mukeshj92004/github-upload/blob1/main/static'
 STATIC_URL = '/static/'
-
-
+#STATIC_ROOT = '/webapps/mysite/static/'
+#STATIC_ROOT = os.path.join(BASE_DIR, "static/")
+STATIC_ROOT = Path.joinpath(BASE_DIR, 'static/')
+#STATICFILES_DIRS = (
+#    os.path.join(BASE_DIR, "static"),
+#)
+#STATICFILES_DIRS = (
+#   Path.joinpath.(BASE_DIR, "static"),
+#)
