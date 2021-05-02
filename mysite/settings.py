@@ -25,7 +25,7 @@ SECRET_KEY = 'h-3rp0@1cbkkbsb2%$zw#(6rd@=t6%9ktxw!shff7mp%rz@g*z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['3.129.72.116','127.0.0.1']
+ALLOWED_HOSTS = ['3.129.209.149','127.0.0.1']
 
 
 # Application definition
@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+#    'social_django',  # <-- Here social-auth-app-django
+#    'mysite.core',
 ]
 
 MIDDLEWARE = [
@@ -48,6 +50,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+#    'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
+#    'social_django.middleware.SocialAuthExceptionMiddleware',
 ]
 
 ROOT_URLCONF = 'mysite.urls'
@@ -63,6 +67,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+               # 'social_django.context_processors.backends',
+               # 'social_django.context_processors.login_redirect',
             ],
         },
     },
@@ -82,7 +88,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgres2',
         'USER': 'postgres',
-        'PASSWORD': 'mukSam@908',
+        'PASSWORD': 'Muk$am@9o8',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
@@ -107,6 +113,13 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+#AUTHENTICATION_BACKENDS = (
+#    'social_core.backends.facebook.FacebookOAuth2',
+#    'social_core.backends.twitter.TwitterOAuth',
+#    'social_core.backends.github.GithubOAuth2',
+
+#    'django.contrib.auth.backends.ModelBackend',
+#)
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
@@ -124,8 +137,7 @@ USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/3.1/howto/static-files/
- 
+# https://docs.djangoproject.com/en/3.1/howto/static-files/ 
 #STATIC_URL = 'https://github.com/mukeshj92004/github-upload/blob1/main/static'
 STATIC_URL = '/static/'
 #STATIC_ROOT = '/webapps/mysite/static/'
@@ -137,3 +149,6 @@ STATIC_ROOT = Path.joinpath(BASE_DIR, 'static/')
 #STATICFILES_DIRS = (
 #   Path.joinpath.(BASE_DIR, "static"),
 #)
+#LOGIN_URL = 'login'
+#LOGOUT_URL = 'logout'
+#LOGIN_REDIRECT_URL = 'home'

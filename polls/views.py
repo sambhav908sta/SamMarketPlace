@@ -16,7 +16,12 @@ from .models import Choice, Question
 
 from django.utils import timezone
 
+from django.shortcuts import render
+from django.views.generic import TemplateView
+from django.contrib.auth.mixins import LoginRequiredMixin
 
+#class HomeView(LoginRequiredMixin, TemplateView):
+#    template_name = "home.html"
 #def index(request):
     #return HttpResponse("Hello, world. You're at the polls index.")
     #latest_question_list = Question.objects.order_by('-pub_date')[:5]
