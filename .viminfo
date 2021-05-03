@@ -11,8 +11,12 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:q
+|2,0,1620032518,,"q"
+:wq
+|2,0,1620032505,,"wq"
 :q!
-|2,0,1607996776,,"q!"
+|2,0,1620032497,,"q!"
 
 # Search String History (newest to oldest):
 
@@ -23,34 +27,100 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+"q	CHAR	0
+	!€ýa:wqw
+|3,0,26,0,1,0,1620031862,"!€ýa:wqw"
 
 # File marks:
-'0  7917  0  ~/log/uwsgi.log
-|4,48,7917,0,1608019129,"~/log/uwsgi.log"
-'1  7834  0  ~/log/uwsgi.log
-|4,49,7834,0,1607996776,"~/log/uwsgi.log"
-'2  7834  0  ~/log/uwsgi.log
-|4,50,7834,0,1607996776,"~/log/uwsgi.log"
+'0  1  13  ~/Testv1/testf1
+|4,48,1,13,1620032518,"~/Testv1/testf1"
+'1  1  13  ~/Testv1/testf1
+|4,49,1,13,1620032505,"~/Testv1/testf1"
+'2  7917  0  ~/log/uwsgi.log
+|4,50,7917,0,1608019129,"~/log/uwsgi.log"
+'3  7834  0  ~/log/uwsgi.log
+|4,51,7834,0,1607996776,"~/log/uwsgi.log"
+'4  7834  0  ~/log/uwsgi.log
+|4,52,7834,0,1607996776,"~/log/uwsgi.log"
 
 # Jumplist (newest first):
+-'  1  13  ~/Testv1/testf1
+|4,39,1,13,1620032518,"~/Testv1/testf1"
+-'  1  13  ~/Testv1/testf1
+|4,39,1,13,1620032505,"~/Testv1/testf1"
+-'  7917  0  ~/log/uwsgi.log
+|4,39,7917,0,1608019129,"~/log/uwsgi.log"
+-'  7917  0  ~/log/uwsgi.log
+|4,39,7917,0,1608019129,"~/log/uwsgi.log"
+-'  7917  0  ~/log/uwsgi.log
+|4,39,7917,0,1608019129,"~/log/uwsgi.log"
 -'  7917  0  ~/log/uwsgi.log
 |4,39,7917,0,1608019129,"~/log/uwsgi.log"
 -'  7864  0  ~/log/uwsgi.log
 |4,39,7864,0,1607996791,"~/log/uwsgi.log"
+-'  7864  0  ~/log/uwsgi.log
+|4,39,7864,0,1607996791,"~/log/uwsgi.log"
+-'  7864  0  ~/log/uwsgi.log
+|4,39,7864,0,1607996791,"~/log/uwsgi.log"
+-'  7864  0  ~/log/uwsgi.log
+|4,39,7864,0,1607996791,"~/log/uwsgi.log"
 -'  7834  0  ~/log/uwsgi.log
 |4,39,7834,0,1607996780,"~/log/uwsgi.log"
+-'  7834  0  ~/log/uwsgi.log
+|4,39,7834,0,1607996780,"~/log/uwsgi.log"
+-'  7834  0  ~/log/uwsgi.log
+|4,39,7834,0,1607996780,"~/log/uwsgi.log"
+-'  7834  0  ~/log/uwsgi.log
+|4,39,7834,0,1607996780,"~/log/uwsgi.log"
+-'  7834  0  ~/log/uwsgi.log
+|4,39,7834,0,1607996776,"~/log/uwsgi.log"
+-'  7834  0  ~/log/uwsgi.log
+|4,39,7834,0,1607996776,"~/log/uwsgi.log"
+-'  7834  0  ~/log/uwsgi.log
+|4,39,7834,0,1607996776,"~/log/uwsgi.log"
 -'  7834  0  ~/log/uwsgi.log
 |4,39,7834,0,1607996776,"~/log/uwsgi.log"
 -'  16  0  ~/log/uwsgi.log
 |4,39,16,0,1607995602,"~/log/uwsgi.log"
 -'  16  0  ~/log/uwsgi.log
 |4,39,16,0,1607995602,"~/log/uwsgi.log"
+-'  16  0  ~/log/uwsgi.log
+|4,39,16,0,1607995602,"~/log/uwsgi.log"
+-'  16  0  ~/log/uwsgi.log
+|4,39,16,0,1607995602,"~/log/uwsgi.log"
+-'  16  0  ~/log/uwsgi.log
+|4,39,16,0,1607995602,"~/log/uwsgi.log"
+-'  16  0  ~/log/uwsgi.log
+|4,39,16,0,1607995602,"~/log/uwsgi.log"
+-'  16  0  ~/log/uwsgi.log
+|4,39,16,0,1607995602,"~/log/uwsgi.log"
+-'  16  0  ~/log/uwsgi.log
+|4,39,16,0,1607995602,"~/log/uwsgi.log"
+-'  1  0  ~/log/uwsgi.log
+|4,39,1,0,1607995596,"~/log/uwsgi.log"
+-'  1  0  ~/log/uwsgi.log
+|4,39,1,0,1607995596,"~/log/uwsgi.log"
+-'  1  0  ~/log/uwsgi.log
+|4,39,1,0,1607995596,"~/log/uwsgi.log"
+-'  1  0  ~/log/uwsgi.log
+|4,39,1,0,1607995596,"~/log/uwsgi.log"
+-'  1  0  ~/log/uwsgi.log
+|4,39,1,0,1607995596,"~/log/uwsgi.log"
+-'  1  0  ~/log/uwsgi.log
+|4,39,1,0,1607995596,"~/log/uwsgi.log"
 -'  1  0  ~/log/uwsgi.log
 |4,39,1,0,1607995596,"~/log/uwsgi.log"
 -'  1  0  ~/log/uwsgi.log
 |4,39,1,0,1607995596,"~/log/uwsgi.log"
 
 # History of marks within files (newest to oldest):
+
+> ~/Testv1/testf1
+	*	1620032513	0
+	"	1	13
+	^	1	14
+	.	1	13
+	+	1	13
 
 > ~/log/uwsgi.log
 	*	1607996791	0

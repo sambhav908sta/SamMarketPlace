@@ -1,34 +1,3 @@
-source bin/activate
-nano polls/templates/polls/index.html
-nano polls/templates/polls/index.html
-nano polls/templates/polls/index.html
-nano conf/uwsgi.ini
-nano conf/uwsgi.ini
-nano conf/uwsgi.ini
-source bin/activate
-python manage.py changepassword ubuntu1
-python manage.py changepassword ubuntu1
-ls -l
-nano mysite/settings.py
-nano conf/uwsgi.ini
-source bin/activate
-ls -l
-cd polls
-ls -l
-cd templates
-ls -l
-pwd
-cd polls
-ls -l
-deactivate env
-pwd
-ls -l
-cd polls
-ls -l
-cd static
-ls -l
-cd polls
-ls -l
 cd .
 cd ..
 pwd
@@ -498,3 +467,34 @@ cd polls
 ls -l
 cd ..
 ls -l
+ls -l
+$HOME
+ls -l
+CD POLLS
+cd polls
+ls -l
+cd ..
+ls -l
+cd mysite
+ls -l
+cd ..
+ls -l
+git init -b main
+git init
+git add .
+ls -l
+cd PollsMJ1
+ls -l
+cd ..
+ls -l
+git commit -m "First commit"
+git remote add origin https://github.com/sambhav908sta/SamMarketPlace.git
+git remote add origin https://github.com/sambhav908sta/SamMarketPlace1.git
+git branch -M 
+git branch -M main
+git remote add origin https://github.com/sambhav908sta/SamMarketPlace.git
+git remote
+git remote add gitsambhav https://github.com/sambhav908sta/SamMarketPlace.git
+git remote
+git remote -v
+git push gitsambhav main
