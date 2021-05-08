@@ -1,7 +1,7 @@
 #from django.urls import path
 from django.urls import path, include
 from . import views
-
+from django.views.generic import TemplateView
 app_name = 'polls'
 
 urlpatterns = [
@@ -16,7 +16,8 @@ urlpatterns = [
     # ex: /polls/5/vote/
     #path('<int:question_id>/vote/', views.vote, name='vote'),
 
-    path('', views.IndexView.as_view(), name='index'),
+    #path('', views.IndexView.as_view(), name='index'),
+    path('', TemplateView.as_view(template_name='polls/index.html'), name='index'), 
     path('<int:pk>/', views.DetailView.as_view(), name='detail'),
     path('<int:pk>/results/', views.ResultsView.as_view(), name='results'),
     path('<int:question_id>/vote/', views.vote, name='vote'),

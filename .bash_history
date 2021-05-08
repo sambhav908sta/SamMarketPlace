@@ -1,99 +1,3 @@
-cd .
-cd ..
-pwd
-mv /home/ubuntu/gittemp1 /webapps/mysite/polls/static
-ls -l
-ls -l
-cd ..
-cd templates
-cd polls
-ls -l
-mv index.html index-mysite.html
-ls -l
-wget --no-check-certificate --content-disposition https://raw.githubusercontent.com/mukeshj92004/github-upload/main/polls/templates/polls/index.html
-ls -l
-source bin/activate
-python manage.py collectstatic
-python manage.py collectstatic
-deactivate env
-source bin/activate
-pwd
-mysite
-ls -l
-cd static
-ls -l
-pwd
-mv -v /webapps/mysite/static/*  /webapps/mysite/static1
-cd ..
-mkdir static1
-mv -v /webapps/mysite/static/*  /webapps/mysite/static1
-ls -l
-cd static
-ls -l
-ls -l
-pwd
-ls -l
-cd static
-ls -l
-cd ..
-ls -l
-cd polls
-cd templates
-cd polls
-nano index.html
-pwd
-ls -l
-cd static
-ls -l
-pwd
-cd ..
-cd run
-cd ..
-cd run
-ls -l
-nano uwsgi.sock
-find /etc -type f -name "uwsgi_params"
-ls -l
-cd polls
-ls -l
-nano urls.py
-cd ..
-ls -l
-cd mysite
-nano urls.py
-cd ..
-cd polls
-ls -l
-nano views.py
-cd polls
-ls -ll
-cd static
-ls -l
-mv index.html index-backup.html
-ls -l
-cd ..
-cd ..
-ls -l
-cd static
-ls -l
-mv index.html index-backup.html
-mv index-backup.html index.html
-pwd
-cd ..
-cd polls
-cd static
-ls -l
-cd polls
-ls -l
-nano urls.py
-cd mysite
-ls -l
-nano urls.py
-cd polls
-ls -l
-nano views.py
-pwd
-cd polls
 cd templates
 cd polls
 ls -l
@@ -498,3 +402,99 @@ git remote add gitsambhav https://github.com/sambhav908sta/SamMarketPlace.git
 git remote
 git remote -v
 git push gitsambhav main
+ls -l
+pwd
+mkdir testGitVersionCommit
+pwd
+ls -l
+rm testGitVersionCommit
+rm -r testGitVersionCommit
+ls -l
+mkdir Testv1
+cd Testv1
+vi testf1
+vi testf1
+cd ..
+git add .
+git commit -m "test1"
+git remote -v
+git log
+git push gitsambhav
+git v
+git -v
+git log
+git describe
+git describe gitsambhav
+git describe test1
+git tag -a v1.0 -m "version v1.0"
+git tag
+git show v1.0
+git push gitsambhav v1.0
+git describe v.10
+git describe version v.10
+git describe -all
+git describe all
+git push gitsambhav v1.0
+git describe
+git describe
+git log
+cd polls
+ls -l
+cd templates
+ls -l
+mkdir registration
+cd reistration
+cd registration
+ls -l
+nano login.html
+cd mysite
+ls -l
+nano urls.py
+cd ..
+sudo rm /etc/nginx/sites-enabled/nginx-uwsgi.conf
+cd mysite
+nano urls.py
+cd polls
+nano urls.py
+cd mysite
+ls -l
+nano settings.py
+nano urls.py
+nano settings.py
+nano settings.py
+nano urls.py
+nano urls.py
+cd polls
+ls -l
+cd templates
+ls -l
+cd polls
+ls -l
+cd registration
+ls -l
+cd ..
+cd ..
+ls -l
+cd mysite
+nano settings.py
+cd mysite
+cd mysite
+nano urls.py
+cd polls
+nano urls.py
+cd mysite
+nano urls.py
+tag
+git tag
+git show v1.0
+git init
+ls -l
+pwd
+pwd
+git tag
+pwd
+tag
+git show
+git tag
+git tag v1.0
+git show v1.0
